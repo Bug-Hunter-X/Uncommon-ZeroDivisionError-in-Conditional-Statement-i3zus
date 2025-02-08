@@ -1,0 +1,3 @@
+This repository demonstrates a subtle ZeroDivisionError in Python. The error is masked by a conditional statement, making it less obvious than a typical ZeroDivisionError.
+The `bug.py` file contains the buggy code.  The `bugSolution.py` file shows how to correctly handle the potential division by zero.
+The bug is triggered when the function is called with `a = 0`. This highlights the importance of comprehensive error handling, even in seemingly simple conditional statements.
